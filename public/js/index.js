@@ -133,6 +133,8 @@ function sendTransaction(isAdding) {
                 nameEl.value = "";
                 amountEl.value = "";
             }
+
+            alert('Budget has been updated!');
         })
         .catch(err => {
             // fetch failed, so save in indexed db
